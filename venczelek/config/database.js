@@ -15,12 +15,12 @@ module.exports = ({ env }) => ({
   connection: {
     client: "mysql",
     connection: {
-      host: env("DATABASE_HOST", "venczelek.ro"),
-      port: env.int("DATABASE_PORT", 3306),
-      database: env("DATABASE_NAME", "venczele_venczelek"),
-      user: env("DATABASE_USERNAME", "venczele_J0c3r"),
-      password: env("DATABASE_PASSWORD", "makitax1234"),
-      ssl: env.bool("DATABASE_SSL", false),
+      host: env("DATABASE_HOST"),
+      port: env.int("DATABASE_PORT"),
+      database: env("DATABASE_NAME"),
+      user: env("DATABASE_USERNAME"),
+      password: env("DATABASE_PASSWORD"),
+      ssl: env.bool("DATABASE_SSL"),
     },
   },
 });
