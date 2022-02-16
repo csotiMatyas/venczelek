@@ -7,20 +7,24 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "build:prod": "NODE_ENV=production npm run build",
+    "build:start": "NODE_ENV=production npm run start",
     "strapi": "strapi",
     "build:win": "cross-env NODE_ENV=production yarn build",
     "start:win": "cross-env NODE_ENV=production yarn start"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "npm-check": "^5.9.2"
+  },
   "dependencies": {
-    "@strapi/plugin-graphql": "4.0.7",
-    "@strapi/plugin-i18n": "4.0.7",
-    "@strapi/plugin-users-permissions": "4.0.7",
+    "@strapi/plugin-graphql": "^4.0.7",
+    "@strapi/plugin-i18n": "^4.0.7",
+    "@strapi/plugin-users-permissions": "^4.0.7",
     "@strapi/provider-upload-cloudinary": "^4.0.7",
-    "@strapi/strapi": "4.0.7",
+    "@strapi/strapi": "^4.0.7",
     "cross-env": "^7.0.3",
     "mysql": "^2.18.1",
-    "pg": "8.6.0"
+    "pg": "^8.6.0"
   },
   "author": {
     "name": "Csoti Matyas"
