@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_linkek_linkeks",
+  "info": {
+    "displayName": "Linkek",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -19,21 +19,19 @@
     "Projekt_leirasa": {
       "type": "text"
     },
-    "Borito_kep": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
-    },
     "Galeria": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Linkek": {
+      "displayName": "Linkek",
+      "type": "component",
+      "repeatable": true,
+      "component": "linkek.linkek"
     }
   }
 }
