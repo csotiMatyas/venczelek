@@ -29,9 +29,7 @@
   "author": {
     "name": "Csoti Matyas"
   },
-  "strapi": {
-    "uuid": "cd91ef38-d956-4488-b0dc-8c367f1c676f"
-  },
+  "strapi": {},
   "engines": {
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
